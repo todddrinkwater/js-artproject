@@ -1,0 +1,13 @@
+JS PSEUDOCODE
+
+1. Create variable that will correspond to accessing the class "button" to grab the values from each list-item/button.
+
+2. Add a onmousedown event to each button using a for loop. onmousedown the buttons sound value will be retrieved.
+
+3. Using a switch or if statement, match up the corresponding values to the correct sounds to be played.
+
+4. If button value matches the right criteria, then play that audio file.
+
+5. In addition to the sound being played. Choose a picture to fill the graphic div (half the page).
+
+6. If time, make buttons glow or have effect when pressed.
