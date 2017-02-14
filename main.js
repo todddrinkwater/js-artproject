@@ -10,8 +10,17 @@ for (var i = 0; i < button.length; i++){
 function playSound() {
 console.log("playSound test");
 
-var horse = document.getElementById("horse");
-horse.play();
+var a = document.getElementById("horse");
+var amin = document.getElementById("horse");
+var bmin = document.getElementById("horse");
+var c = document.getElementById("horse");
+var d = document.getElementById("horse");
+var e = document.getElementById("horse");
+var emin = document.getElementById("horse");
+var f = document.getElementById("horse");
+var g = document.getElementById("horse");
+
+
 
 
 }
