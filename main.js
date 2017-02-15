@@ -1,41 +1,76 @@
 var button = document.getElementsByClassName("button");
+var graphic = document.getElementById("graphic");
 
+graphic.innerHTML = "*";
 
 // Add event to play sound when mouse button is held down on li.
 for (var i = 0; i < button.length; i++){
-  button[i].addEventListener('click', playSound);
+  button[i].addEventListener('click', getValue);
 }
 
+function getValue(){
+buttonValue = this.getAttribute("data-buttonValue");
+playSound();
+}
 
 function playSound() {
 console.log("playSound test");
 
-var a = document.getElementById("horse");
-var amin = document.getElementById("horse");
-var bmin = document.getElementById("horse");
-var c = document.getElementById("horse");
-var d = document.getElementById("horse");
-var e = document.getElementById("horse");
-var emin = document.getElementById("horse");
-var f = document.getElementById("horse");
-var g = document.getElementById("horse");
+var a = document.getElementById("a");
+var amin = document.getElementById("amin");
+var b = document.getElementById("b");
+var c = document.getElementById("c");
+var d = document.getElementById("d");
+var e = document.getElementById("e");
+var emin = document.getElementById("emin");
+var f = document.getElementById("f");
+var g = document.getElementById("g");
 
 
+  if(buttonValue === "A"){
+    a.play();
+    graphic.innerHTML = "A"
+  }
+
+  if(buttonValue === "Am"){
+    amin.play();
+    graphic.innerHTML = "Am"
+  }
+
+  if(buttonValue === "B"){
+    b.play();
+    graphic.innerHTML = "B"
+  }
+
+  if(buttonValue === "C"){
+    c.play();
+    graphic.innerHTML = "C"
+  }
+
+  if(buttonValue === "D"){
+    d.play();
+    graphic.innerHTML = "D"
+  }
+
+  if(buttonValue === "E"){
+    e.play();
+    graphic.innerHTML = "E"
+  }
+
+  if(buttonValue === "Em"){
+    emin.play();
+    graphic.innerHTML = "Em"
+  }
+
+  if(buttonValue === "F"){
+    f.play();
+    graphic.innerHTML = "F"
+  }
+
+  if(buttonValue === "G"){
+    g.play();
+    graphic.innerHTML = "G"
+  }
 
 
 }
-/*  for (var i = 0; i < button.length; i++){
-    switch(val){
-      case "A":
-      // play A note;
-      break;
-
-      case "Bm":
-      // play Bm note;
-      break;
-    }
-
-}
-
-// if button[i].value = "A"
-*/

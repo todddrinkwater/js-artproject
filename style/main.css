@@ -7,6 +7,7 @@
   height: 400px;
 }
 
+
 #soundMachine {
   display: flex;
   margin: 0;
@@ -23,6 +24,7 @@
   margin: 0 5px 0 5px;
   border: 2px solid black;
   line-height: 90px;
+  font-size: 40px;
 
 }
 
