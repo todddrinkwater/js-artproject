@@ -18,7 +18,7 @@ console.log("playSound test");
 
 var a = document.getElementById("a");
 var amin = document.getElementById("amin");
-var b = document.getElementById("b");
+var b = document.getElementById("bmin");
 var c = document.getElementById("c");
 var d = document.getElementById("d");
 var e = document.getElementById("e");
@@ -37,9 +37,9 @@ var g = document.getElementById("g");
     graphic.innerHTML = "Am"
   }
 
-  if(buttonValue === "B"){
+  if(buttonValue === "Bm"){
     b.play();
-    graphic.innerHTML = "B"
+    graphic.innerHTML = "Bm"
   }
 
   if(buttonValue === "C"){

@@ -1,10 +1,14 @@
-* {
-  border: 1px solid red;
-}
 
-#graphics {
-  width: 400px;
-  height: 400px;
+
+#graphic {
+  width: 25%;
+  height: 25%;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40em;
+  color: pink;
+  line-height: 400px;
+  text-align: center;
+  margin: 0 50px 0 50px;
 }
 
 
@@ -24,7 +28,8 @@
   margin: 0 5px 0 5px;
   border: 2px solid black;
   line-height: 90px;
-  font-size: 40px;
+  font-size: 3.5em;
+  font-family: 'Permanent Marker', cursive;
 
 }
 
