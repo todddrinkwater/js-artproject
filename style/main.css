@@ -1,14 +1,12 @@
-
-
 #graphic {
   width: 25%;
   height: 25%;
   font-family: 'Permanent Marker', cursive;
   font-size: 40em;
   color: pink;
-  line-height: 400px;
+  line-height: 80%;
   text-align: center;
-  margin: 0 50px 0 50px;
+  margin: 0 10% 0 10%;
 }
 
 
@@ -19,8 +17,8 @@
 }
 
 .button {
-  width: 100px;
-  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
   border-radius: 20%;
   text-align: center;
   list-style-type: none;
@@ -30,7 +28,7 @@
   line-height: 90px;
   font-size: 3.5em;
   font-family: 'Permanent Marker', cursive;
-
+  color: rgb(32, 56, 88);
 }
 
 ul {

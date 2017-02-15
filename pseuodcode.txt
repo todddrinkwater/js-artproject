@@ -6,7 +6,7 @@ JS PSEUDOCODE
 
 3. Using a switch or if statement, match up the corresponding values to the correct sounds to be played.
 
-4. If button value matches the right criteria, then play that audio file.
+4. If button value matches the right criteria, then play that audio file. Add a function to stop all sound every time a button is clicked. Place function call before play function call. The will reset all sounds before with every button click.
 
 5. In addition to the sound being played. Choose a picture to fill the graphic div (half the page).
 
